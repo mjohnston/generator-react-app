@@ -32,7 +32,6 @@ var ReactAppGenerator = yeoman.generators.Base.extend({
     this.copy('_.gitignore', '.gitignore');
     this.copy('_Gruntfile.js', 'Gruntfile.js');
     this.copy('_index.js', 'index.js');
-    this.copy('_Makefile', 'Makefile');
     this.copy('_package.json', 'package.json');
     this.copy('_webpack.config.js', 'webpack.config.js');
 

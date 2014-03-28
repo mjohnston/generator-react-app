@@ -3,7 +3,7 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
-describe('yosd generator', function () {
+describe('react-app generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
@@ -17,15 +17,13 @@ describe('yosd generator', function () {
     }.bind(this));
   });
 
-  it('creates expected files', function (done) {
-    var expected = [
+  it('creates expected files', function (done) { var expected = [
       '.gitignore',
       'Gruntfile.js',
       'index.js',
-      'Makefile',
       'package.json',
       'webpack.config.js'
-    ];
+    ]
 
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
