@@ -35,6 +35,16 @@ Finally, initiate the generator:
 $ yo react-app
 ```
 
+### Running the App
+
+The generator will create a `Makefile` which will run a grunt task to
+start a server on port `9000`. The port number can be overriden with the
+`PORT` environment variable.
+
+```
+$ make run
+```
+
 ### Getting To Know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
