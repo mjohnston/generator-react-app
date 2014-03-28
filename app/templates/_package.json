@@ -19,5 +19,8 @@
     "grunt-shell-spawn": "0.3.0",
     "jsx-loader": "0.9.0",
     "connect-livereload": "0.3.2"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/grunt serve"
   }
 }
