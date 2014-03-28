@@ -34,13 +34,12 @@ $ yo react-app
 
 ### Running the App
 
-The generator will create a `Makefile` which will run a grunt task to
-start a server on port `9000`. The port number can be overriden with the
-`PORT` environment variable.
+```
+$ npm start
+```
 
-```
-$ make run
-```
+This will start a server on port 9000. The port number can be overriden
+with `process.env.PORT`.
 
 A watch task will also be triggered, watching any source files inside `src`. Live Reload is also enabled by default. A connect server will be generated at `index.js`, and the client-side code is generated in the `src` directory.
 
