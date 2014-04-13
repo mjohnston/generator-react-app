@@ -32,6 +32,19 @@ Finally, initiate the generator:
 $ yo react-app
 ```
 
+### Component generator
+
+There is also a component generator that will scaffold the resources necessary for a typical React component.
+
+```
+$ yo react-app:component foo-bar
+```
+
+This will create:
+
+* src/components/foo-bar.js
+* src/components/foo-bar.less
+
 ### Running the App
 
 ```
