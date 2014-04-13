@@ -17,4 +17,6 @@ var <%= _.classify(name) %> = React.createClass({
       );
     }
 
+});
+
 module.exports = <%= _.classify(name) %>;
