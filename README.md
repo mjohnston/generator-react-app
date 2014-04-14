@@ -29,7 +29,7 @@ $ npm install -g generator-react-app
 Finally, initiate the generator:
 
 ```
-$ yo react-app
+$ yo react-app my-app
 ```
 
 ### Component generator

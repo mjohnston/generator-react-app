@@ -1,5 +1,5 @@
 {
-  "name": "_package_",
+  "name": "<%= _.slugify(name) %>",
   "version": "0.0.1",
   "devDependencies": {
     "envify": "1.2.1",

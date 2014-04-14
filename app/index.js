@@ -6,7 +6,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
 
-var ReactAppGenerator = yeoman.generators.Base.extend({
+var ReactAppGenerator = yeoman.generators.NamedBase.extend({
   init: function () {
     this.pkg = require('../package.json');
 

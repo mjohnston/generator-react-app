@@ -12,7 +12,7 @@ describe('react-app generator', function () {
 
       this.app = helpers.createGenerator('react-app:app', [
         '../../app'
-      ]);
+      ], 'test-app');
       done();
     }.bind(this));
   });
