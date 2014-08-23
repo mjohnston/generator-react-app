@@ -18,22 +18,22 @@ module.exports = {
   node: {
     filename: false,
     dirname: false,
-    process: true,
+    process: false,
     global: false,
     buffer: false
   },
 
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'jsx-loader' },
+      { test: /\.js$/, loader: 'jsx-loader!transform/cacheable?envify' },
       { test: /\.less$/, loader: 'style-loader!css-loader!less-loader' }
     ]
   },
 
   resolve: {
     modulesDirectories: [
-      path.join(__dirname, 'src'),
-      path.join(__dirname, 'node_modules')
+      'src',
+      'node_modules'
     ]
   },
 

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "envify": "^1.2.1",
-    "react": "^0.10.0",
+    "react": "^0.11.1",
     "connect": "^2.14.3",
     "webpack": "^1.1.0",
     "style-loader": "^0.6.3",
@@ -18,7 +18,8 @@
     "grunt-cli": "^0.1.13",
     "grunt-shell-spawn": "^0.3.0",
     "jsx-loader": "^0.9.0",
-    "connect-livereload": "^0.3.2"
+    "connect-livereload": "^0.3.2",
+    "transform-loader": "^0.2.1"
   },
   "scripts": {
     "start": "./node_modules/.bin/grunt serve"

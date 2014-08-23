@@ -1,6 +1,11 @@
 var webpack = require('webpack')
   , webpackConfig = require('./webpack.config');
 
+// Default to development mode
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = 'development';
+}
+
 module.exports = function (grunt) {
 
   require('load-grunt-tasks')(grunt);
